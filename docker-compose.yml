@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aaha.profitabilitysimulator:
+    image: ${DOCKER_REGISTRY}aahaprofitabilitysimulator
+    build:
+      context: .
+      dockerfile: AAHA.ProfitabilitySimulator\Dockerfile
