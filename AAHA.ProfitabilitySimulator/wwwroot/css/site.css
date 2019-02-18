@@ -1,0 +1,93 @@
+﻿body {
+}
+
+h1 {
+    color: red;
+}
+
+/*OVERRIDE BOOTSTRAP THEME*/
+.row{
+    margin:0px;
+}
+button, input {
+    width: -webkit-fill-available;
+    background: transparent;
+    border: 0px;
+}
+.input-group{
+    height:24px;
+}
+.input-group-prepend{
+    height:24px;
+}
+.input-group > .custom-file, .input-group > .custom-select, .input-group > .form-control {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+    background: transparent;
+}
+.input-group>.custom-select:not(:first-child), .input-group>.form-control:not(:first-child){
+    border:0px;
+    padding:0px;
+    text-align: right;
+    padding-right: 5px;
+}
+.input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group > .input-group-append:last-child > .input-group-text:not(:last-child), .input-group > .input-group-append:not(:last-child) > .btn, .input-group > .input-group-append:not(:last-child) > .input-group-text, .input-group > .input-group-prepend > .btn, .input-group > .input-group-prepend > .input-group-text {
+    background: transparent;
+    border: 0px;
+}
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle{
+    width:34px;
+}
+.btn:not(:disabled):not(.disabled){
+    width:34px;
+}
+.aaha {
+}
+.aaha.sim-header{
+    text-align:center!important;
+}
+.aaha.row-first {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    padding: 0px;
+}
+.aaha.row-middle {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 0px;
+}
+.aaha.row-bottom {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0px;
+}
+.aaha.row-first.green {
+    background-color: #D8E4BC;
+    padding:0px;
+}
+.aaha.row-middle.green {
+    background-color: #D8E4BC;
+    padding: 0px;
+}
+.aaha.row-bottom.green {
+    background-color: #D8E4BC;
+    padding: 0px;
+}
+.aaha-col-example{
+    padding-right:20px;
+    text-align:right;
+}
+.aaha-col-actual {
+    /*padding-left: 20px;*/
+    padding-left: 0px;
+    text-align: right;
+}
+.aaha-col-label{
+    
+}
