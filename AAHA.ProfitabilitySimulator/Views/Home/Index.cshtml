@@ -10,7 +10,12 @@
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
 
-    <link rel="stylesheet" href="~/dist/allstyles.css" />
+    <!--START: DEVELOPMENT (UNMINIFIED)-->
+    <link rel="stylesheet" href="dist/aaha.profitability-simulator.css" />
+    <!--END: DEVELOPMENT (UNMINIFIED)-->
+    <!--START: PRODUCTION (MINIFIED)-->
+    @*<link rel="stylesheet" href="dist/aaha.profitability-simulator.min.css" />*@
+    <!--END: PRODUCTION (MINIFIED)-->
 </head>
 <body>
     <div class="card">
@@ -55,7 +60,7 @@
                                 <div class="input-group-prepend">
                                     <div class="input-group-text">$</div>
                                 </div>
-                                <input id="d8" name="d8"  type="text" class="form-control" placeholder="-" tabindex="1" autocomplete="on">
+                                <input id="d8" name="d8" type="text" class="form-control" placeholder="-" tabindex="1" autocomplete="on">
                             </div>
                         </div>
                     </div>
@@ -67,7 +72,7 @@
                                 <div class="input-group-prepend">
                                     <div class="input-group-text"></div>
                                 </div>
-                                <input id="d9" name="d9" type="text" class="form-control" placeholder="-"  tabindex="1" autocomplete="on">
+                                <input id="d9" name="d9" type="text" class="form-control" placeholder="-" tabindex="1" autocomplete="on">
                             </div>
                         </div>
                     </div>
@@ -510,7 +515,11 @@
         </div>
     </div>
 
-    <script src="~/dist/popper.js"></script>
-    <script src="~/dist/bundle.js"></script>
+    <!--START: DEVELOPMENT (UNMINIFIED)-->
+    <script src="dist/aaha.profitability-simulator.js"></script>
+    <!--END: DEVELOPMENT (UNMINIFIED)-->
+    <!--START: PRODUCTION (MINIFIED)-->
+    @*<script src="dist/aaha.profitability-simulator.min.js"></script>*@
+    <!--END: PRODUCTION (MINIFIED)-->
 </body>
 </html>

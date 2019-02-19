@@ -5,7 +5,7 @@ const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
 module.exports = {
   mode: 'development',
-  entry: { 'main': './wwwroot/source/app.js' },
+  entry: { 'main': './wwwroot/js/app.js' },
   output: {
     path: path.resolve(__dirname, 'wwwroot/dist'),
     filename: 'aaha.profitability-simulator.js',
@@ -13,7 +13,8 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-        filename: 'aaha.profitability-simulator.css'
+        filename: 'aaha.profitability-simulator.min.css',
+        minimize: true
     }),
     new webpack.ProvidePlugin({
         $: 'jquery',
@@ -21,15 +22,17 @@ module.exports = {
         'window.jQuery': 'jquery',
         Popper: ['popper.js', 'default']
     })
-  ],
+    ],
   optimization: {
     minimizer: [
-      new UglifyJsPlugin(
-    )]
+      new UglifyJsPlugin({
+        test: /\.js(\?.*)?$/i,
+    })
+    ]
   },
   module: {
     rules: [ 
-        { test: /\.css$/, use: [{loader: MiniCssExtractPlugin.loader}, "css-loader"] },
+        { test: /\.css$/, use: [ { loader: MiniCssExtractPlugin.loader, options: { minimize: true } }, "css-loader"] },
         { test: /\.js?$/,  use: { loader: 'babel-loader', options: { presets: ['@babel/preset-env'] } } },
     ]
   }

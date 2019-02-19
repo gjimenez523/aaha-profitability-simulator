@@ -1,12 +1,4 @@
-﻿
-
-//$('[data-toggle="popover"]').popover()
-
-getText = function () {
-  return "Data from getText function in dep.js";
-}
-
-$('#d8').change(function() {
+﻿$('#d8').change(function() {
   calcRevenuePerFTEVeternarian();
   calcAverageTransactionCharge();
   calcRevenuePerFTONonVeternarianEmp();
