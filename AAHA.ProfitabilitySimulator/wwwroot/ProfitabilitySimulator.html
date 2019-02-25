@@ -32,479 +32,751 @@
         </div>
         <!--#END: HEADER-->
 
-        <div class="card-body">
+        <div class="card-body aaha-profsim-main">
             <!--DESIGN RATIONALE:  Didn't use TABLE so we can control responsive layout-->
             <div class="row" style="margin:0px;">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"></div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"><strong>EXAMPLE</strong></div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header"><strong>YOUR NUMBERS</strong></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"><strong>Hospital Data</strong></div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"><strong>Numbers from Pulsepoints, 2018</strong></div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header"><strong>from most recent 12-month period</strong></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Total Revenue in Fiscal Year 2017</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$1,271,402</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-first green">
-                            <label class="sr-only" for="inlineFormInputGroup">-</label>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">$</div>
-                                </div>
-                                <input id="d8" name="d8" type="text" class="form-control" placeholder="-" tabindex="1" autocomplete="on">
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label"></div>
+                                <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"><strong>EXAMPLE</strong></div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual sim-header"><strong>YOUR NUMBERS</strong></div>
                             </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Total # of Transactions</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">12,857</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-middle green">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text"></div>
-                                </div>
-                                <input id="d9" name="d9" type="text" class="form-control" placeholder="-" tabindex="1" autocomplete="on">
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label"><strong>Hospital Data</strong></div>
+                                <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"><strong>Numbers from Pulsepoints, 2018</strong></div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual sim-header"><strong>from most recent<br /> 12-month period</strong></div>
                             </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
                         </div>
                     </div>
+
                     <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"># of Full-Time-Equivalent (FTE) Veterinarians</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">2.3</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-middle green">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text"></div>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Total Revenue in Fiscal Year 2017</div>
+                                <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">$1,271,402</div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual row-first green">
+                                    <label class="sr-only" for="inlineFormInputGroup">-</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">$</div>
+                                        </div>
+                                        <input id="d8" name="d8" type="text" class="form-control" placeholder="-" tabindex="1" autocomplete="on">
+                                    </div>
                                 </div>
-                                <input id="d10" name="d10" type="text" class="form-control" placeholder="-" tabindex="2" autocomplete="on">
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Total # of Transactions</div>
+                                <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">12,857</div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual row-middle green">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"></div>
+                                        </div>
+                                        <input id="d9" name="d9" type="text" class="form-control" placeholder="-" tabindex="1" autocomplete="on">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label"># of Full-Time-Equivalent (FTE) Veterinarians</div>
+                                <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">2.3</div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual row-middle green">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"></div>
+                                        </div>
+                                        <input id="d10" name="d10" type="text" class="form-control" placeholder="-" tabindex="2" autocomplete="on">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Total FTE Nonveterinarian Staff</div>
+                                <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">9.5</div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual row-middle green">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"></div>
+                                        </div>
+                                        <input id="d11" name="d11" type="text" class="form-control" placeholder="-" tabindex="3" autocomplete="on">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Active Clients</div>
+                                <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">3,896</div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual row-middle green">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"></div>
+                                        </div>
+                                        <input id="d12" name="d12" type="text" class="form-control" placeholder="-" tabindex="4" autocomplete="on">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Drugs and Medical Supplies Expense</div>
+                                <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">$249,195</div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual row-middle green">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">$</div>
+                                        </div>
+                                        <input id="d13" name="d13" type="text" class="form-control" placeholder="-" tabindex="5" autocomplete="on">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Laboratory Expense</div>
+                                <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">$67,384</div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual row-middle green">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">$</div>
+                                        </div>
+                                        <input id="d14" name="d14" type="text" class="form-control" placeholder="-" tabindex="6" autocomplete="on">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Nonveterinarian Staff Salary Expense </div>
+                                <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">$240,295</div>
+                                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual row-bottom green">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text">$</div>
+                                        </div>
+                                        <input id="d15" name="d15" type="text" class="form-control" placeholder="-" tabindex="7" autocomplete="on">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Total FTE Nonveterinarian Staff</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">9.5</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-middle green">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text"></div>
-                                </div>
-                                <input id="d11" name="d11" type="text" class="form-control" placeholder="-" tabindex="3" autocomplete="on">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Active Clients</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">3,896</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-middle green">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text"></div>
-                                </div>
-                                <input id="d12" name="d12" type="text" class="form-control" placeholder="-" tabindex="4" autocomplete="on">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Drugs and Medical Supplies Expense</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$249,195</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-middle green">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">$</div>
-                                </div>
-                                <input id="d13" name="d13" type="text" class="form-control" placeholder="-" tabindex="5" autocomplete="on">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Laboratory Expense</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$67,384</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-middle green">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">$</div>
-                                </div>
-                                <input id="d14" name="d14" type="text" class="form-control" placeholder="-" tabindex="6" autocomplete="on">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Nonveterinarian Staff Salary Expense </div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$240,295</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-bottom green">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">$</div>
-                                </div>
-                                <input id="d15" name="d15" type="text" class="form-control" placeholder="-" tabindex="7" autocomplete="on">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin:0px;margin-top:30px;">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"><strong>Production Calculations</strong></div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Revenue per FTE Veterinarian</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$552,783</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-first">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">$</div>
-                                </div>
-                                <input id="d18" name="d18" type="text" class="form-control" placeholder="-" tabindex="8" readonly>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Transactions per FTE Veterinarian</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">5,590</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-middle">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text"></div>
-                                </div>
-                                <input id="d19" name="d19" type="text" class="form-control" placeholder="-" tabindex="9" readonly>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Average Transaction Charge</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$99</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-middle">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">$</div>
-                                </div>
-                                <input id="d20" name="d20" type="text" class="form-control" placeholder="-" tabindex="10" readonly>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Revenue per FTE Nonveterinarian Employee</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$133,832</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-middle">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">$</div>
-                                </div>
-                                <input id="d21" name="d21" type="text" class="form-control" placeholder="-" tabindex="11" readonly>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Active Clients per FTE Veterinarian</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">1,694</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-middle">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text"></div>
-                                </div>
-                                <input id="d22" name="d22" type="text" class="form-control" placeholder="-" tabindex="12" readonly>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Annual Transactions per Active Client</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">3.30</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-bottom">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text"></div>
-                                </div>
-                                <input id="d23" name="d23" type="text" class="form-control" placeholder="-" tabindex="13" readonly>
-                            </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-blockquote">
+                            <blockquote>
+                                <div><span style="position: relative;top: calc(50% - 30px);">Enter the data from your hospital here.</span></div>
+                            </blockquote>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row" style="margin:0px;margin-top:30px;">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"><strong>Expense Calculations</strong></div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Drugs & Supplies Expense</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">19.6%</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-first">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">%</div>
-                                </div>
-                                <input id="d26" name="d26" type="text" class="form-control" placeholder="-" tabindex="14" autocomplete="on">
+            <div>&nbsp;</div>
+            <div>
+                <div class="row">
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12 aaha-col-label"></div>
+                            <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example"></div>
+                            <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha">
+                                <button class="btn-primary aaha-profsim-enter">Enter</button>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Laboratory Expense</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">5.3%</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-middle">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">%</div>
-                                </div>
-                                <input id="d27" name="d27" type="text" class="form-control" placeholder="-" tabindex="15" autocomplete="on">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Staff Salary/Wages</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">18.9%</div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-bottom">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text">%</div>
-                                </div>
-                                <input id="d28" name="d28" type="text" class="form-control" placeholder="-" tabindex="16" autocomplete="on">
-                            </div>
-                        </div>
-                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
                 </div>
             </div>
         </div>
 
-        <div class="card-body">
+        <div class="card-body aaha-profsim-results hide">
             <!--DESIGN RATIONALE:  Didn't use TABLE so we can control responsive layout-->
             <div class="row" style="margin:0px;">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"><strong>Scenarios to Increase Income and Profitability</strong></div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header"></div>
-                    </div>
-                    <!--START: SECTION 1-->
-                    <div>
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"><strong>1. Increase Average Transaction Charge by: </strong></div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">$ per Transaction</div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$3.00</div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text">$</div>
-                                    </div>
-                                    <input id="d34" name="d34" type="text" class="form-control" placeholder="-" tabindex="17" autocomplete="on">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">
-                                <div>Potential Effect on Total Income and Profit *</div>
-                            </div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$16,770</div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-bottom">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text">$</div>
-                                    </div>
-                                    <input id="d36" name="d36" type="text" class="form-control" placeholder="-" tabindex="18" readonly>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <small class="text-muted">
-                                    *Profit increase assumes that no additional supplies are consumed and no additional personnel are required.
-                                </small>
-                            </div>
-                        </div>
-                    </div>
-                    <!--END: SECTION 1-->
-                    <!--START: SECTION 2-->
-                    <div>
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"><strong>2. Increase # of Transactions per Week by: </strong></div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"># of Transactions</div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">5</div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text">$</div>
-                                    </div>
-                                    <input id="d39" name="d39" type="text" class="form-control" placeholder="-" tabindex="19" autocomplete="on">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">
-                                Potential Effect on Total Income *
-                            </div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$25,740</div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-bottom">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text">$</div>
-                                    </div>
-                                    <input id="d41" name="d41" type="text" class="form-control" placeholder="-" tabindex="20" readonly>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">
-                                Potential Effect on Profit *
-                            </div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$19,331</div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-bottom">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text">$</div>
-                                    </div>
-                                    <input id="d42" name="d42" type="text" class="form-control" placeholder="-" tabindex="21" readonly>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <small class="text-muted">
-                                    *Profit increase assumes there no additional personnel are required.
-                                </small>
-                            </div>
-                        </div>
-                    </div>
-                    <!--END: SECTION 2-->
-                    <!--START: SECTION 3-->
-                    <div>
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"><strong>3. Increase Annual Transactions per Active Client by: </strong></div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header"></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"># of Transactions</div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">0.5</div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text"></div>
-                                    </div>
-                                    <input id="d46" name="d46" type="text" class="form-control" placeholder="-" tabindex="22" autocomplete="on">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">
-                                Potential Effect on Total Income *
-                            </div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$192,852</div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-bottom">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text">$</div>
-                                    </div>
-                                    <input id="d48" name="d48" type="text" class="form-control" placeholder="-" tabindex="23" readonly>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">
-                                Potential Effect on Profit **
-                            </div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$144,832</div>
-                            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-bottom">
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text">$</div>
-                                    </div>
-                                    <input id="d49" name="d49" type="text" class="form-control" placeholder="-" tabindex="24" readonly>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <small class="text-muted">
-                                    *Profit increase assumes there no additional personnel are required.<br />
-                                    **Profit increase assumes that no additional personnel are required to generate the increased income.
-                                </small>
-                            </div>
-                        </div>
-                    </div>
-                    <!--END: SECTION 3-->
-                    <!--START: SECTION 4-->
-                    <div>
-                        <div>
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
                             <div class="row">
-                                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 aaha-col-label"><strong>4. Reduce Drugs & Supplies Expense by Percentage of Gross Income </strong></div>
+                                <div class="col-lg-8 col-md-6 col-sm-12 col-xs-12 aaha-col-label"><strong><h2></h2></strong></div>
+                                <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
+                                <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header"></div>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <div id="accordionPractice">
+                                <div class="card">
+                                    <div class="aaha card-header" id="headingZero">
+                                        <div class="row aaha collapse-header" data-toggle="collapse" data-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero">
+                                            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 aaha-col-label"><strong>Your Practice's Production and Expenses</strong></div>
+                                            <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
+                                            <div class="col-lg-1 col-md- col-sm-12 col-xs-12 aaha aaha-col-actual sim-header">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="collapseZero" class="collapse show" aria-labelledby="headingZero" data-parent="#accordionPractice">
+                                        <div class="card-body">
+                                            <!--START: SECTION 1-->
+                                            <div class="row aaha collapse-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"><strong>Production Calculations</strong></div>
+                                                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
+                                                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header"></div>
+                                            </div>
+                                            <div>
+                                                <div class="row">
+                                                    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Revenue per FTE Veterinarian</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">$552,783</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual total row-first">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <div class="input-group-text">$</div>
+                                                            </div>
+                                                            <input id="d18" name="d18" type="text" class="form-control" placeholder="-" tabindex="8" readonly>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Transactions per FTE Veterinarian</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">5,590</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual total row-middle">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <div class="input-group-text"></div>
+                                                            </div>
+                                                            <input id="d19" name="d19" type="text" class="form-control" placeholder="-" tabindex="9" readonly>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Average Transaction Charge</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">$99</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual total row-middle">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <div class="input-group-text">$</div>
+                                                            </div>
+                                                            <input id="d20" name="d20" type="text" class="form-control" placeholder="-" tabindex="10" readonly>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Revenue per FTE Nonveterinarian Employee</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">$133,832</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual total row-middle">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <div class="input-group-text">$</div>
+                                                            </div>
+                                                            <input id="d21" name="d21" type="text" class="form-control" placeholder="-" tabindex="11" readonly>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Active Clients per FTE Veterinarian</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">1,694</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual total row-middle">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <div class="input-group-text"></div>
+                                                            </div>
+                                                            <input id="d22" name="d22" type="text" class="form-control" placeholder="-" tabindex="12" readonly>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Annual Transactions per Active Client</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">3.30</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual total row-bottom">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <div class="input-group-text"></div>
+                                                            </div>
+                                                            <input id="d23" name="d23" type="text" class="form-control" placeholder="-" tabindex="13" readonly>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--END: SECTION 1-->
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row aaha collapse-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"><strong>Expense Calculations</strong></div>
+                                                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
+                                                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header"></div>
+                                            </div>
+                                            <div>
+                                                <div class="row">
+                                                    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Drugs & Supplies Expense</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">19.6%</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual total row-first">
+                                                        <div class="input-group">
+                                                            <input id="d26" name="d26" type="text" class="form-control" placeholder="-" tabindex="14" autocomplete="on" readonly>
+                                                            <div class="input-group-append percentage">
+                                                                <div class="input-group-text">%</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Laboratory Expense</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">5.3%</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual total row-middle">
+                                                        <div class="input-group">
+                                                            <input id="d27" name="d27" type="text" class="form-control" placeholder="-" tabindex="15" autocomplete="on" readonly>
+                                                            <div class="input-group-append percentage">
+                                                                <div class="input-group-text">%</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12 aaha-col-label">Staff Salary/Wages</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 aaha-col-example">18.9%</div>
+                                                    <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 aaha aaha-col-actual total row-bottom">
+                                                        <div class="input-group">
+                                                            <input id="d28" name="d28" type="text" class="form-control" placeholder="-" tabindex="16" autocomplete="on" readonly>
+                                                            <div class="input-group-append percentage">
+                                                                <div class="input-group-text">%</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-blockquote">
+                            <blockquote>
+                                <div><span style="position: relative;top: calc(50% - 30px);">The software calculates your practice production and expenses based on the numbers you entered.</span></div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>&nbsp;</div>
+            <div>
+                <div class="row">
+                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 aaha">
+                                <button class="btn-primary aaha-profsim-exit">Edit your practice numbers</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-body aaha-profsim-results hide">
+            <!--DESIGN RATIONALE:  Didn't use TABLE so we can control responsive layout-->
+            <div class="row" style="margin:0px;">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <div class="row">
+                                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 aaha-col-label"><strong><h2>Scenarios to Increase Income and Profitability</h2></strong></div>
                                 <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
                                 <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header"></div>
                             </div>
-                            <div class="row">
-                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Percentage of Total Income</div>
-                                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">1.5%</div>
-                                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">%</div>
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <div id="accordion">
+                                <div class="aaha card">
+                                    <div class="aaha card-header" id="headingOne">
+                                        <div class="row aaha collapse-header" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 aaha-col-label"><strong>Increase Average Transaction Charge</strong></div>
+                                            <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
+                                            <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
                                         </div>
-                                        <input id="d53" name="d53" type="text" class="form-control" placeholder="-" tabindex="25" autocomplete="on">
+                                    </div>
+                                    <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <!--START: SECTION 1-->
+                                            <div class="row">
+                                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                                    <div class="card aaha example">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">Example</h5>
+                                                            <div class="text-center"><small>If you increase your transaction charge by</small></div>
+                                                            <div class="text-center"><h4>$3.00</h4></div>
+                                                            <div class="text-center"><small>your profit could increase by</small></div>
+                                                            <div class="text-center"><h4>$16,770</h4></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label">If you increase your transaction charge by</div>
+                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <div class="input-group-text">$</div>
+                                                                </div>
+                                                                <input id="d34" name="d34" type="text" class="form-control" placeholder="-" tabindex="17" autocomplete="on">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div>&nbsp;</div>
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                            <h4 class="text-center">your profit could increase by</h4>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                            <div class="row">
+                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
+                                                                    <div class="input-group text-center" style="min-width: 150px;">
+                                                                        <div class="input-group-prepend">
+                                                                            <div class="input-group-text">$</div>
+                                                                        </div>
+                                                                        <input id="d36" name="d36" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="18" readonly>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row text-right">
+                                                <div class="col-lg-12 justify-content-center">
+                                                    <small class="text-muted text-center">
+                                                        *Profit increase assumes that no additional supplies are consumed and no additional personnel are required.
+                                                    </small>
+                                                </div>
+                                            </div>
+                                            <!--END: SECTION 1-->
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">
-                                    Potential Effect on Profit
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$19,071</div>
-                                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-bottom">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">$</div>
+                                <div class="aaha card">
+                                    <div class="aaha card-header" id="headingTwo">
+                                        <div class="row aaha collapse-header" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 aaha-col-label"><strong>Increase # of Transactions per Week</strong></div>
+                                            <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
+                                            <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
                                         </div>
-                                        <input id="d55" name="d55" type="text" class="form-control" placeholder="-" tabindex="26" readonly>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse hide" aria-labelledby="headingTwo" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <!--START: SECTION 2-->
+                                            <div class="row">
+                                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                                    <div class="card aaha example">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">Example</h5>
+                                                            <div class="text-center"><small>Increase # of Transactions per Week by</small></div>
+                                                            <div class="text-center"><h4>5</h4></div>
+                                                            <div class="text-center"><small>your income could increase by</small></div>
+                                                            <div class="text-center"><h4>$33,020</h4></div>
+                                                            <div class="text-center"><small>your profit could increase by</small></div>
+                                                            <div class="text-center"><h4>$18,557</h4></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label"><small>If you increase your # of transactions per week by</small></div>
+                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <div class="input-group-text"></div>
+                                                                </div>
+                                                                <input id="d39" name="d39" type="text" class="form-control" placeholder="-" tabindex="19" autocomplete="on">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div>&nbsp;</div>
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                <h4 class="text-center">your income could increase by</h4>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                        <div class="input-group text-center" style="min-width: 145px;">
+                                                                            <div class="input-group-prepend">
+                                                                                <div class="input-group-text">$</div>
+                                                                            </div>
+                                                                            <input id="d41" name="d41" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="20" readonly>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                <h4 class="text-center">your profit could increase by</h4>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                        <div class="input-group" style="min-width: 145px;">
+                                                                            <div class="input-group-prepend">
+                                                                                <div class="input-group-text">$</div>
+                                                                            </div>
+                                                                            <input id="d42" name="d42" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="21" readonly>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row text-right">
+                                                <div class="col-lg-12 justify-content-center">
+                                                    <small class="text-muted text-center">
+                                                        *Profit increase assumes there no additional personnel are required.
+                                                    </small>
+                                                </div>
+                                            </div>
+                                            <!--END: SECTION 2-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="aaha card">
+                                    <div class="aaha card-header" id="headingThree">
+                                        <div class="row aaha collapse-header" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 aaha-col-label"><strong>Increase Annual Transactions per Active Client</strong></div>
+                                            <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
+                                            <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="collapseThree" class="collapse hide" aria-labelledby="headingThree" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <!--START: SECTION 3-->
+                                            <div class="row">
+                                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                                    <div class="card aaha example">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">Example</h5>
+                                                            <div class="text-center"><small>Increase # of Transactions</small></div>
+                                                            <div class="text-center"><h4>0.5</h4></div>
+                                                            <div class="text-center"><small>your income could increase by</small></div>
+                                                            <div class="text-center"><h4>$192,852</h4></div>
+                                                            <div class="text-center"><small>your profit could increase by</small></div>
+                                                            <div class="text-center"><h4>$144,832</h4></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label"><small>If you increase your # of transactions</small></div>
+                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <div class="input-group-text"></div>
+                                                                </div>
+                                                                <input id="d46" name="d46" type="text" class="form-control" placeholder="-" tabindex="22" autocomplete="on">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div>&nbsp;</div>
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                <h4 class="text-center">your income could increase by</h4>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                        <div class="input-group text-center">
+                                                                            <div class="input-group-prepend">
+                                                                                <div class="input-group-text">$</div>
+                                                                            </div>
+                                                                            <input id="d48" name="d48" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="23" readonly>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                <h4 class="text-center">your profit could increase by</h4>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                <div class="row">
+                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-prepend">
+                                                                                <div class="input-group-text">$</div>
+                                                                            </div>
+                                                                            <input id="d49" name="d49" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="24" readonly>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row text-right">
+                                                <div class="col-lg-12 justify-content-center">
+                                                    <small class="text-muted text-center">
+                                                        *Profit increase assumes there no additional personnel are required.<br />
+                                                        **Profit increase assumes that no additional personnel are required to generate the increased income.
+                                                    </small>
+                                                </div>
+                                            </div>
+                                            <!--END: SECTION 3-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="aaha card">
+                                    <div class="aaha card-header" id="headingFour">
+                                        <div class="row aaha collapse-header" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 aaha-col-label"><strong>Reduce Drugs & Supplies Expense by Percentage of Gross Income</strong></div>
+                                            <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
+                                            <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="collapseFour" class="collapse hide" aria-labelledby="headingFour" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <!--START: SECTION 4-->
+                                            <div class="row">
+                                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                                    <div class="card aaha example">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">Example</h5>
+                                                            <div class="text-center"><small>If you reduce your drugs &amp; supplies expense by</small></div>
+                                                            <div class="text-center"><h4>1.5%</h4></div>
+                                                            <div class="text-center"><small>your profit could increase by</small></div>
+                                                            <div class="text-center"><h4>$19,071</h4></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label"><small>If you reduce your drugs &amp; supplies expense by </small></div>
+                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
+                                                            <div class="input-group">
+                                                                <input id="d53" name="d53" type="text" class="form-control" placeholder="-" tabindex="25" autocomplete="on">
+                                                                <div class="input-group-append percentage">
+                                                                    <div class="input-group-text">%</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div>&nbsp;</div>
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                            <h4 class="text-center">your profit could increase by</h4>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                            <div class="row">
+                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
+                                                                    <div class="input-group text-center">
+                                                                        <div class="input-group" style="min-width: 150px;">
+                                                                            <div class="input-group-prepend">
+                                                                                <div class="input-group-text">$</div>
+                                                                            </div>
+                                                                            <input id="d55" name="d55" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="26" readonly>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row text-right">
+                                                <div class="col-lg-12 justify-content-center">
+                                                    <small class="text-muted text-center">
+                                                        *Profit increase assumes that no additional supplies are consumed and no additional personnel are required.
+                                                    </small>
+                                                </div>
+                                            </div>
+                                            <!--END: SECTION 4-->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="aaha card">
+                                    <div class="aaha card-header" id="headingFive">
+                                        <div class="row aaha collapse-header" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 aaha-col-label"><strong>Reduce Total Non Veterinarian Staff Expense by Percentage of Gross Income</strong></div>
+                                            <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
+                                            <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header">
+                                                <i class="fas fa-chevron-down"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="collapseFive" class="collapse hide" aria-labelledby="headingFive" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <!--START: SECTION 5-->
+                                            <div class="row">
+                                                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                                    <div class="card aaha example">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">Example</h5>
+                                                            <div class="text-center"><small>If you reduce your non-veterinarian staff expense by</small></div>
+                                                            <div class="text-center"><h4>1%</h4></div>
+                                                            <div class="text-center"><small>your profit could increase by</small></div>
+                                                            <div class="text-center"><h4>$12,714</h4></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label"><small>If you reduce your non-veterinarian staff expense by</small></div>
+                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
+                                                            <div class="input-group">
+                                                                <input id="d58" name="d58" type="text" class="form-control" placeholder="-" tabindex="27" autocomplete="on">
+                                                                <div class="input-group-append percentage">
+                                                                    <div class="input-group-text">%</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div>&nbsp;</div>
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                            <h4 class="text-center">your profit could increase by</h4>
+                                                        </div>
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                            <div class="row">
+                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+                                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
+                                                                    <div class="input-group text-center" style="min-width: 150px;">
+                                                                        <div class="input-group-prepend">
+                                                                            <div class="input-group-text">$</div>
+                                                                        </div>
+                                                                        <input id="d60" name="d60" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="28" readonly>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--END: SECTION 5-->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!--END: SECTION 4-->
-                    <!--START: SECTION 5-->
-                    <div>
-                        <div>
-                            <div class="row">
-                                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 aaha-col-label"><strong>5. Reduce Total Nonveterinarian Staff Expense by Percentage of Gross Income</strong></div>
-                                <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
-                                <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header"></div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">Percentage of Total Nonveterinarian Staff Expense</div>
-                                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">1%</div>
-                                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">%</div>
-                                        </div>
-                                        <input id="d58" name="d58" type="text" class="form-control" placeholder="-" tabindex="27" autocomplete="on">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label">
-                                    Potential Effect on Profit
-                                </div>
-                                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha-col-example">$12,714</div>
-                                <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 aaha aaha-col-actual row-bottom">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <div class="input-group-text">$</div>
-                                        </div>
-                                        <input id="d60" name="d60" type="text" class="form-control" placeholder="-" tabindex="28" readonly>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-blockquote">
+                            <blockquote>
+                                <div><span style="position: relative;top: calc(50% - 30px);">Test scenarios by entering your numbers in the teal cells. The simulator will calculate the potential increase in revenue and/or profit.</span></div>
+                            </blockquote>
                         </div>
                     </div>
-                    <!--END: SECTION 5-->
                 </div>
             </div>
         </div>
