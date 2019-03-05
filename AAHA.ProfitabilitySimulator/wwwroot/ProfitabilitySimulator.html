@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Profitability Simulator</title>
+    <title>AAHA Profitability Simulator</title>
 
     <!--START: DEVELOPMENT (UNMINIFIED)-->
     <!--<link rel="stylesheet" href="dist/aaha.profitability-simulator.css" />-->
@@ -17,7 +17,7 @@
         <!--#START: HEADER-->
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <h2>Profitability Simulator</h2>
+                <h2>AAHA Profitability Simulator</h2>
             </div>
         </div>
         <div class="row">
@@ -338,6 +338,24 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="card-body">
+                                            <div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding:0px;margin:0px;">
+                                                        <div class="row">
+                                                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"></div>
+                                                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 aaha" style="padding:0px;margin:0px;">
+                                                                <button class="btn-light aaha-profsim-exit">
+                                                                    <i class="fas fa-pencil-alt"></i>
+                                                                    Edit your hospital data
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -351,19 +369,6 @@
                 </div>
             </div>
             <div>&nbsp;</div>
-            <div>
-                <div class="row">
-                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 aaha-col-label"></div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 aaha">
-                                <button class="btn-primary aaha-profsim-exit">Edit your practice numbers</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
-                </div>
-            </div>
         </div>
 
         <div class="card-body aaha-profsim-results hide">
@@ -398,8 +403,8 @@
                                             <!--START: SECTION 1-->
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                    <div class="card aaha example">
-                                                        <div class="card-body">
+                                                    <div class="aaha example">
+                                                        <div>
                                                             <h5 class="card-title">Example</h5>
                                                             <div class="text-center"><small>If you increase your transaction charge by</small></div>
                                                             <div class="text-center"><h4>$3.00</h4></div>
@@ -408,35 +413,37 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                                                    <div class="row">
-                                                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label">If you increase your transaction charge by</div>
-                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <div class="input-group-text">$</div>
+                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 card">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label">If you increase your transaction charge by</div>
+                                                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text">$</div>
+                                                                    </div>
+                                                                    <input id="d34" name="d34" type="text" class="form-control" placeholder="-" tabindex="17" autocomplete="on">
                                                                 </div>
-                                                                <input id="d34" name="d34" type="text" class="form-control" placeholder="-" tabindex="17" autocomplete="on">
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div>&nbsp;</div>
-                                                    <div class="row">
-                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                            <h4 class="text-center">your profit could increase by</h4>
-                                                        </div>
-                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                            <div class="row">
-                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
-                                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
-                                                                    <div class="input-group text-center" style="min-width: 150px;">
-                                                                        <div class="input-group-prepend">
-                                                                            <div class="input-group-text">$</div>
+                                                        <div>&nbsp;</div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                <h4 class="text-center">your profit could increase by</h4>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                <div class="row">
+                                                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+                                                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
+                                                                        <div class="input-group text-center" style="min-width: 150px;">
+                                                                            <div class="input-group-prepend">
+                                                                                <div class="input-group-text">$</div>
+                                                                            </div>
+                                                                            <input id="d36" name="d36" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="18" readonly>
                                                                         </div>
-                                                                        <input id="d36" name="d36" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="18" readonly>
                                                                     </div>
+                                                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
                                                                 </div>
-                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -468,8 +475,8 @@
                                             <!--START: SECTION 2-->
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                    <div class="card aaha example">
-                                                        <div class="card-body">
+                                                    <div class="aaha example">
+                                                        <div class="">
                                                             <h5 class="card-title">Example</h5>
                                                             <div class="text-center"><small>Increase # of Transactions per Week by</small></div>
                                                             <div class="text-center"><h4>5</h4></div>
@@ -480,49 +487,51 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                                                    <div class="row">
-                                                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label"><small>If you increase your # of transactions per week by</small></div>
-                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <div class="input-group-text"></div>
+                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 card">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label"><small>If you increase your # of transactions per week by</small></div>
+                                                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text"></div>
+                                                                    </div>
+                                                                    <input id="d39" name="d39" type="text" class="form-control" placeholder="-" tabindex="19" autocomplete="on">
                                                                 </div>
-                                                                <input id="d39" name="d39" type="text" class="form-control" placeholder="-" tabindex="19" autocomplete="on">
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div>&nbsp;</div>
-                                                    <div class="row">
-                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
-                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                                <h4 class="text-center">your income could increase by</h4>
-                                                            </div>
-                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                                <div class="row">
-                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                                        <div class="input-group text-center" style="min-width: 145px;">
-                                                                            <div class="input-group-prepend">
-                                                                                <div class="input-group-text">$</div>
+                                                        <div>&nbsp;</div>
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
+                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                    <h4 class="text-center">your income could increase by</h4>
+                                                                </div>
+                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                            <div class="input-group text-center" style="min-width: 145px;">
+                                                                                <div class="input-group-prepend">
+                                                                                    <div class="input-group-text">$</div>
+                                                                                </div>
+                                                                                <input id="d41" name="d41" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="20" readonly>
                                                                             </div>
-                                                                            <input id="d41" name="d41" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="20" readonly>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
-                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                                <h4 class="text-center">your profit could increase by</h4>
-                                                            </div>
-                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                                <div class="row">
-                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                                        <div class="input-group" style="min-width: 145px;">
-                                                                            <div class="input-group-prepend">
-                                                                                <div class="input-group-text">$</div>
+                                                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
+                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                    <h4 class="text-center">your profit could increase by</h4>
+                                                                </div>
+                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                            <div class="input-group" style="min-width: 145px;">
+                                                                                <div class="input-group-prepend">
+                                                                                    <div class="input-group-text">$</div>
+                                                                                </div>
+                                                                                <input id="d42" name="d42" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="21" readonly>
                                                                             </div>
-                                                                            <input id="d42" name="d42" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="21" readonly>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -534,7 +543,7 @@
                                             <div class="row text-right">
                                                 <div class="col-lg-12 justify-content-center">
                                                     <small class="text-muted text-center">
-                                                        *Profit increase assumes there no additional personnel are required.
+                                                        *Profit increase assumes that no additional supplies are consumed and no additional personnel are required.
                                                     </small>
                                                 </div>
                                             </div>
@@ -557,8 +566,8 @@
                                             <!--START: SECTION 3-->
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                    <div class="card aaha example">
-                                                        <div class="card-body">
+                                                    <div class="aaha example">
+                                                        <div>
                                                             <h5 class="card-title">Example</h5>
                                                             <div class="text-center"><small>Increase # of Transactions</small></div>
                                                             <div class="text-center"><h4>0.5</h4></div>
@@ -569,50 +578,52 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                                                    <div class="row">
-                                                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label"><small>If you increase your # of transactions</small></div>
-                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <div class="input-group-text"></div>
+                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 card">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label"><small>If you increase your # of transactions</small></div>
+                                                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
+                                                                <div class="input-group">
+                                                                    <div class="input-group-prepend">
+                                                                        <div class="input-group-text"></div>
+                                                                    </div>
+                                                                    <input id="d46" name="d46" type="text" class="form-control" placeholder="-" tabindex="22" autocomplete="on">
                                                                 </div>
-                                                                <input id="d46" name="d46" type="text" class="form-control" placeholder="-" tabindex="22" autocomplete="on">
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div>&nbsp;</div>
-                                                    <div class="row">
-                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
-                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                                <h4 class="text-center">your income could increase by</h4>
-                                                            </div>
-                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                                <div class="row">
-                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                                        <div class="input-group text-center">
-                                                                            <div class="input-group-prepend">
-                                                                                <div class="input-group-text">$</div>
+                                                        <div>&nbsp;</div>
+                                                        <div class="row">
+                                                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
+                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                    <h4 class="text-center">your income could increase by</h4>
+                                                                </div>
+                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                            <div class="input-group text-center">
+                                                                                <div class="input-group-prepend">
+                                                                                    <div class="input-group-text">$</div>
+                                                                                </div>
+                                                                                <input id="d48" name="d48" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="23" readonly>
                                                                             </div>
-                                                                            <input id="d48" name="d48" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="23" readonly>
-                                                                        </div>
 
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
-                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                                <h4 class="text-center">your profit could increase by</h4>
-                                                            </div>
-                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                                <div class="row">
-                                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                                        <div class="input-group">
-                                                                            <div class="input-group-prepend">
-                                                                                <div class="input-group-text">$</div>
+                                                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
+                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                    <h4 class="text-center">your profit could increase by</h4>
+                                                                </div>
+                                                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                            <div class="input-group">
+                                                                                <div class="input-group-prepend">
+                                                                                    <div class="input-group-text">$</div>
+                                                                                </div>
+                                                                                <input id="d49" name="d49" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="24" readonly>
                                                                             </div>
-                                                                            <input id="d49" name="d49" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="24" readonly>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -624,8 +635,7 @@
                                             <div class="row text-right">
                                                 <div class="col-lg-12 justify-content-center">
                                                     <small class="text-muted text-center">
-                                                        *Profit increase assumes there no additional personnel are required.<br />
-                                                        **Profit increase assumes that no additional personnel are required to generate the increased income.
+                                                        *Profit increase assumes that no additional supplies are consumed and no additional personnel are required.
                                                     </small>
                                                 </div>
                                             </div>
@@ -649,8 +659,8 @@
                                             <!--START: SECTION 4-->
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                    <div class="card aaha example">
-                                                        <div class="card-body">
+                                                    <div class="aaha example">
+                                                        <div>
                                                             <h5 class="card-title">Example</h5>
                                                             <div class="text-center"><small>If you reduce your drugs &amp; supplies expense by</small></div>
                                                             <div class="text-center"><h4>1.5%</h4></div>
@@ -659,37 +669,39 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                                                    <div class="row">
-                                                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label"><small>If you reduce your drugs &amp; supplies expense by </small></div>
-                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
-                                                            <div class="input-group">
-                                                                <input id="d53" name="d53" type="text" class="form-control" placeholder="-" tabindex="25" autocomplete="on">
-                                                                <div class="input-group-append percentage">
-                                                                    <div class="input-group-text">%</div>
+                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 card">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label"><small>If you reduce your drugs &amp; supplies expense by </small></div>
+                                                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
+                                                                <div class="input-group">
+                                                                    <input id="d53" name="d53" type="text" class="form-control" placeholder="-" tabindex="25" autocomplete="on">
+                                                                    <div class="input-group-append percentage">
+                                                                        <div class="input-group-text">%</div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div>&nbsp;</div>
-                                                    <div class="row">
-                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                            <h4 class="text-center">your profit could increase by</h4>
-                                                        </div>
-                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                            <div class="row">
-                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
-                                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
-                                                                    <div class="input-group text-center">
-                                                                        <div class="input-group" style="min-width: 150px;">
-                                                                            <div class="input-group-prepend">
-                                                                                <div class="input-group-text">$</div>
+                                                        <div>&nbsp;</div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                <h4 class="text-center">your profit could increase by</h4>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                <div class="row">
+                                                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+                                                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
+                                                                        <div class="input-group text-center">
+                                                                            <div class="input-group" style="min-width: 150px;">
+                                                                                <div class="input-group-prepend">
+                                                                                    <div class="input-group-text">$</div>
+                                                                                </div>
+                                                                                <input id="d55" name="d55" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="26" readonly>
                                                                             </div>
-                                                                            <input id="d55" name="d55" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="26" readonly>
                                                                         </div>
                                                                     </div>
+                                                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
                                                                 </div>
-                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -709,7 +721,7 @@
                                 <div class="aaha card">
                                     <div class="aaha card-header" id="headingFive">
                                         <div class="row aaha collapse-header" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                                            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 aaha-col-label"><strong>Reduce Total Non Veterinarian Staff Expense by Percentage of Gross Income</strong></div>
+                                            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 aaha-col-label"><strong>Reduce Total Nonveterinarian  Staff Expense by Percentage of Gross Income</strong></div>
                                             <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-example sim-header"></div>
                                             <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12 aaha aaha-col-actual sim-header">
                                                 <i class="fas fa-chevron-down"></i>
@@ -721,45 +733,47 @@
                                             <!--START: SECTION 5-->
                                             <div class="row">
                                                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                                    <div class="card aaha example">
-                                                        <div class="card-body">
+                                                    <div class="aaha example">
+                                                        <div>
                                                             <h5 class="card-title">Example</h5>
-                                                            <div class="text-center"><small>If you reduce your non-veterinarian staff expense by</small></div>
+                                                            <div class="text-center"><small>If you reduce your nonveterinarian  staff expense by</small></div>
                                                             <div class="text-center"><h4>1%</h4></div>
                                                             <div class="text-center"><small>your profit could increase by</small></div>
                                                             <div class="text-center"><h4>$12,714</h4></div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                                                    <div class="row">
-                                                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label"><small>If you reduce your non-veterinarian staff expense by</small></div>
-                                                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
-                                                            <div class="input-group">
-                                                                <input id="d58" name="d58" type="text" class="form-control" placeholder="-" tabindex="27" autocomplete="on">
-                                                                <div class="input-group-append percentage">
-                                                                    <div class="input-group-text">%</div>
+                                                <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 card">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 aaha-col-label"><small>If you reduce your nonveterinarian  staff expense by</small></div>
+                                                            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 aaha aaha-col-actual row-first row-bottom green">
+                                                                <div class="input-group">
+                                                                    <input id="d58" name="d58" type="text" class="form-control" placeholder="-" tabindex="27" autocomplete="on">
+                                                                    <div class="input-group-append percentage">
+                                                                        <div class="input-group-text">%</div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div>&nbsp;</div>
-                                                    <div class="row">
-                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                            <h4 class="text-center">your profit could increase by</h4>
-                                                        </div>
-                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
-                                                            <div class="row">
-                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
-                                                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
-                                                                    <div class="input-group text-center" style="min-width: 150px;">
-                                                                        <div class="input-group-prepend">
-                                                                            <div class="input-group-text">$</div>
+                                                        <div>&nbsp;</div>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                <h4 class="text-center">your profit could increase by</h4>
+                                                            </div>
+                                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 justify-content-center">
+                                                                <div class="row">
+                                                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
+                                                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 justify-content-center">
+                                                                        <div class="input-group text-center" style="min-width: 150px;">
+                                                                            <div class="input-group-prepend">
+                                                                                <div class="input-group-text">$</div>
+                                                                            </div>
+                                                                            <input id="d60" name="d60" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="28" readonly>
                                                                         </div>
-                                                                        <input id="d60" name="d60" type="text" class="form-control aaha-results-total" placeholder="-" tabindex="28" readonly>
                                                                     </div>
+                                                                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
                                                                 </div>
-                                                                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"></div>
                                                             </div>
                                                         </div>
                                                     </div>
