@@ -4,19 +4,19 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
 module.exports = {
-  //mode: 'development',
-  mode: 'production',
+  mode: 'development',
+  //mode: 'production',
   entry: { 'main': './wwwroot/js/app.js' },
   output: {
     path: path.resolve(__dirname, 'wwwroot/dist'),
-    //filename: 'aaha.profitability-simulator.js',
-    filename: 'aaha.profitability-simulator.min.js',
+    filename: 'aaha.profitability-simulator.js',
+    //filename: 'aaha.profitability-simulator.min.js',
     publicPath: 'dist/'
   },
   plugins: [
     new MiniCssExtractPlugin({
-        //filename: 'aaha.profitability-simulator.css',
-        filename: 'aaha.profitability-simulator.min.css',
+        filename: 'aaha.profitability-simulator.css',
+        //filename: 'aaha.profitability-simulator.min.css',
         minimize: true
     }),
     new webpack.ProvidePlugin({
